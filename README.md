@@ -32,3 +32,12 @@ The `sweet_spot_finder.py` script assists in finding the optimal DBSCAN paramete
 
 https://github.com/yigitkonur/high-dimension-dbscan-embedding-clusterer-for-text-ada-003/assets/9989650/f7347b7a-b989-45a4-b2d0-37cec33b7e77
 
+### classify_hdbscan.py
+
+The added HDBSCAN & PCA functionality helps in:
+
+- **Reducing Computation Time**: By trimming down the dimensions, PCA speeds up the clustering process while still retaining the essential characteristics of the data.
+- **Enhancing Clustering Performance**: With fewer dimensions, clustering algorithms like HDBSCAN can perform more efficiently and potentially yield more meaningful clustering results.
+- **Facilitating Data Visualization**: Lower-dimensional data can be plotted and visualized, aiding in a more intuitive understanding and analysis of the clusters formed.
+
+To take advantage of PCA in your clustering workflow, simply adjust the number of desired components in `N_COMPONENTS` constant and follow the standard script execution process. This addition empowers you with more control over your clustering journey, ensuring that your exploration of high-dimensional data spaces is both manageable and insightful.
