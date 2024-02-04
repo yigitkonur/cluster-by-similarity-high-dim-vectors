@@ -30,5 +30,5 @@ The `sweet_spot_finder.py` script assists in finding the optimal DBSCAN paramete
 2. Review and adjust the ranges for `similarity_thresholds` and `min_samples_values` to fit your dataset and clustering goals.
 3. Execute the script. The output will display different configurations and their corresponding number of clusters, aiding you in selecting the best parameters for `DBSCAN`.
 
-https://github.com/yigitkonur/high-dimension-dbscan-embedding-clusterer-for-text-ada-003/assets/9989650/7cf57af7-f00d-4a0a-8b50-0a29aa4f3b6d
+https://github.com/yigitkonur/high-dimension-dbscan-embedding-clusterer-for-text-ada-003/assets/9989650/f7347b7a-b989-45a4-b2d0-37cec33b7e77
 
